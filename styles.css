@@ -20,53 +20,21 @@ body{
     text-align: center;
 }
 
-.HEADER{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.MENU{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.MAIN{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.HERO{
+section{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.EXTRA{
+.EXTRA, .IMAGE, .BANNER{
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
 }
 
-.IMAGE{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-}
-
-.BANNER{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-}
-
-/* Dispositivos móviles (hasta 600px) */
+/* Pantalla Mobile (hasta 600px) */
 @media (max-width: 600px) {
     .main-grid{
         width: 100%;
@@ -126,7 +94,7 @@ body{
     }
   }
   
-/* Tabletas (601px a 1024px) */
+/* Pantalla Tablets (601px a 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
     
     .main-grid{
@@ -189,7 +157,7 @@ body{
 
 }
   
-/* Pantallas de escritorio (1025px en adelante) */
+/* Pantallas Desktop(1025px en adelante) */
 @media (min-width: 1025px) {
     .main-grid{
         width: 100%;
@@ -250,4 +218,3 @@ body{
     }
 }
   
-
