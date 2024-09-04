@@ -52,42 +52,44 @@ section{
     .HEADER{
         background-color: var(--azul-oscuro);
         grid-area: n1;
+        height: 50px;
     }
 
     .MENU{
         background-color: var(--rojo);
         grid-area: n2;
+        height: 50px;
     }
 
     .HERO{
         background-color: var(--celeste);
         grid-area: n3;
-        height: 184.5px;
+        height: 193.5px;
     }
 
     .MAIN{
         background-color: var(--azul);
         grid-area: n4;
-        height: 184.5px;
+        height: 193.5px;
     }
 
 
     .EXTRA{
         background-color: var(--verde);
         grid-area: n5;
-        height: 100px;
+        height: 90px;
     }
 
     .IMAGE{
         background-color: var(--verde-claro);
         grid-area: n6;
-        height: 100px;
+        height: 90px;
     }
 
     .BANNER{
         background-color: var(--amarillo);
         grid-area: n7;
-        height: 100px;
+        height: 90px;
     }
   }
   
@@ -113,12 +115,13 @@ section{
     .HEADER{
         background-color: var(--azul-oscuro);
         grid-area: n1;
+        height: 50px;   
     }
 
     .MENU{
         background-color: var(--rojo);
         grid-area: n2;
-        height: 415px;
+        height: 407px;
     }
 
     .HERO{
@@ -137,13 +140,13 @@ section{
     .EXTRA{
         background-color: var(--verde);
         grid-area: n5;
-        height: 100px;
+        height: 90px;
     }
 
     .IMAGE{
         background-color: var(--verde-claro);
         grid-area: n6;
-        height: 100px;
+        height: 90px;
     }
 
     .BANNER{
@@ -158,6 +161,7 @@ section{
 @media (min-width: 1025px) {
     .main-grid{
         width: 100%;
+        height: 100%;
         display: grid;
         grid-template-columns: repeat(4);
         grid-template-rows: repeat(6);
