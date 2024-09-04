@@ -133,7 +133,7 @@ section{
     .MAIN{
         background-color: var(--azul);
         grid-area: n4;
-        height: 200px;
+        height: 201px;
     }
 
 
@@ -152,7 +152,7 @@ section{
     .BANNER{
         background-color: var(--amarillo);
         grid-area: n7;
-        height: 115px;
+        height: 116px;
     }
 
 }
@@ -190,7 +190,7 @@ section{
     .HERO{
         background-color: var(--celeste);
         grid-area: n3;
-        height: 400px;
+        height: 402px;
     }
 
     .MAIN{
@@ -215,7 +215,7 @@ section{
     .BANNER{
         background-color: var(--amarillo);
         grid-area: n7;
-        height: 115px;
+        height: 105px;
     }
 }
   
